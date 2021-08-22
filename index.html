@@ -13,22 +13,22 @@
   <body>
     
     <div class="heading">
-      <h3 class='name'>First Name / Last Name</h3>
-      <h3 class=pId>PID: A12345678</h3>
+      <h3 class='name'>MingWei Yeoh </h3>
+      <h3 class=pId>PID: A16788375</h3>
       <h1>ECE 5 Sketchbook</h1> <!-- h1 is heading 1 -->
     </div>
 
     <section class="main">
 
       <div class='center'>
-        <button type='button' onclick="toggleText1()" class="btn">Title</button>
+        <button type='button' onclick="toggleText1()" class="btn">Project one is my first sketch</button>
       </div>
       
       <div class="interactive" id='interactive1' style='display: none'>
         <div class='box1'>
           <br>
           <p class='box2'>Enter one line description here...</p> <!-- p is paragraph -->
-          <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png'>
+          <img src = 'https://lh3.googleusercontent.com/KFMTz-3Bwin7REjOC_WYcsYxqY8vuHivr6WJf24ykq2NMplZdIRkzSZb_3KoR7459fkkKubzv7tmMEtP0Aam_OdkWw18VD-YBQGDFWPYrfcwqYPCw0vtpacCFvJRgM9-Lya4HzHsQNw=w500'>
           <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
         </div> <!-- This is the end of div box1 -->
       </div> <!-- This is the end of div interactive -->
@@ -64,6 +64,19 @@
       </div>
       
       <div class="interactive" id='interactive4' style='display: none'>
+        <div class='box1'>
+          <br>
+          <p class='box2'>Enter one line description here...</p> <!-- p is paragraph -->
+          <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png'>
+          <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
+        </div> <!-- This is the end of div interactive -->
+      </div> <!-- This is the end of div box1 -->
+      
+      <div class ='center'>
+        <button type='button' onclick="toggleText5()" class="btn">Title</button>
+      </div>
+      
+      <div class="interactive" id='interactive5' style='display: none'>
         <div class='box1'>
           <br>
           <p class='box2'>Enter one line description here...</p> <!-- p is paragraph -->
@@ -108,6 +121,15 @@
 
     function toggleText4(text) {
       var text = document.getElementById("interactive4");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+    
+    function toggleText5(text) {
+      var text = document.getElementById("interactive5");
       if (text.style.display === "none") {
         text.style.display = "block";
       } else {
