@@ -1,7 +1,6 @@
 body{
-  background-image: url('https://th.bing.com/th/id/OIP.tZKe9hnE87a4KZGlLf1-YAHaJo?pid=ImgDet&rs=1'); /*Seeting the background image. Ypu can change this by changing the link!*/
+  background-image: url('https://img.freepik.com/free-vector/seamless-pattern_1159-5086.jpg?size=626&ext=jpg'); /*Seeting the background image. Ypu can change this by changing the link!*/
   background-size: cover;
-  background-size: 100% 100%;
   margin: 0rem; /* see referance for how padding and margins apply */
   font-family: Verdana, sans-serif; /*You can change the font here*/
 }  
@@ -82,3 +81,11 @@ body{
   cursor: pointer;
 }
 
+  .box5 {
+    border: 2px solid aqua; /* px is unit of measurement in pixels */
+    border-radius: 10px;
+    padding: 0rem 2rem 1rem 2rem;
+    margin-bottom: 2.5rem;
+    color: white; /*text color*/
+    background: rgb(46, 46, 46, 0.6);/* you can find the color combination online - google css color picker. The last value (0.6) is the opacity */
+  }

@@ -75,10 +75,19 @@
           <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
         </div> <!-- This is the end of div interactive -->
       </div> <!-- This is the end of div box1 -->
+     
+  <div class ='center'> <!-- Start of Box 5 group project-->
+        <button type='button' onclick="toggleText5()" class="btn">Project Workflow</button>
+      </div>
       
+      <div class="interactive" id='interactive5' style='display: none'>
+        <div class='box1'>
+          <br>
+          <p class='box2'>How the entire </p> <!-- p is paragraph -->
+          <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png'>
     </section>
     <!-- This is the end of our section -->
-
+ 
   </body>
 
   <script>
@@ -112,6 +121,14 @@
 
     function toggleText4(text) {
       var text = document.getElementById("interactive4");
+      if (text.style.display === "none") {
+        text.style.display = "block";
+      } else {
+        text.style.display = "none";
+      }
+    }
+     function toggleText5(text) {
+      var text = document.getElementById("interactive5");
       if (text.style.display === "none") {
         text.style.display = "block";
       } else {
